@@ -45,8 +45,8 @@ assembled_matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
 sorted_matrix = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
 matrix_lookup = [sorted_matrix, assembled_matrix]
 assembled_matrix[1][1]
-matrix_lookup = [assembled_matrix, sorted_matrix]
-sorted_matrix[1][1]
+#matrix_lookup = [assembled_matrix, sorted_matrix]
+#sorted_matrix[1][1]
 end
 
 def matrix_update(matrix, row, column, new_value)
